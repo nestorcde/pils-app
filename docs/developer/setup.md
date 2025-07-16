@@ -47,28 +47,28 @@ cd pils-app
 yarn install
 ```
 
-## 2. Create a development build on EAS
+### 2. Create a development build on EAS
 ```bash
 # Install expo-dev-client
 npx expo install expo-dev-client
 ```
 
-## 3. Build the native app (Android)
+### 3. Build the native app (Android)
 ```bash
 # Sign up for an Expo account, if you haven't already.
 # The EAS CLI installed and logged in.
 npm install -g eas-cli && eas login
 ```
 
-## 4. An Android Emulator (optional)
+### 4. An Android Emulator (optional)
 ```bash
 # An Android Emulator is optional if you want to test your app on an emulator.
 eas build --platform android --profile development
 ```
 
-## 5. macOS with iOS Simulator installed
-# iOS Simulators are available only on macOS. Make sure you have the iOS Simulator installed.
-# Edit development profile in eas.json and set the simulator option to true
+### 5. macOS with iOS Simulator installed
+#### iOS Simulators are available only on macOS. Make sure you have the iOS Simulator installed.
+#### Edit development profile in eas.json and set the simulator option to true
 ```
 {
   "build": {
